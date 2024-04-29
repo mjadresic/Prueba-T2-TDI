@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const mapStyle = { height: '400px', width: '100%' };
+const mapStyle = { height: '600px', width: '100%' };
 
 function Map({ trainPositions, trainDetails }) {
   const mapRef = useRef(null);
