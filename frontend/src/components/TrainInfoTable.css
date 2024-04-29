@@ -1,0 +1,44 @@
+.tables-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.station-table-container, .train-table-container {
+  flex: 1;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h3 {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.scroll-container {
+  overflow-y: auto;
+  max-height: 500px; /* Ajusta según tus necesidades */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
