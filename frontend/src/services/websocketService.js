@@ -75,7 +75,6 @@ export const sendChatMessage = (content) => {
   const chatEvent = {
     type: 'MESSAGE',
     payload: {
-      name: 'usuario',  // Asumiendo que siempre envías como 'usuario'
       content: content
     }
   };
